@@ -1,0 +1,61 @@
+.App {  
+  text-align: center;
+  margin: 1em 2em;
+}
+
+.connect-wallet {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  width: fit-content;
+  padding: 10px;
+  background: darkcyan;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid darkcyan;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+input {
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-wallet {
+  display: flex;
+  align-items: center;
+}
+
+.user-address {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.get-balance {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.token-transfer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.whitelist {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}

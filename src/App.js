@@ -89,7 +89,7 @@ function App() {
     const message = {
       from: walletAddress,
       to: transferAddress,
-      value: 1000,
+      value: amount,
       validAfter,
       validBefore,
       nonce,
@@ -110,7 +110,7 @@ function App() {
       await SwissSharesContract.connect(admin).transferWithAuthorization(
         walletAddress,
         transferAddress,
-        1000,
+        amount,
         validAfter,
         validBefore,
         nonce,

@@ -4,7 +4,7 @@ import SwissShares from "./abi/SwissShares.json";
 import "./App.css";
 
 function App() {
-  const contractAddress = "0x2b55B6C20e574Bc91A844c29E29c58813b3eEF66";
+  const contractAddress = "0xd0d749De324CC856d59b94D415B8bd18325Cc89b";
   let privateKey = process.env["REACT_APP_ADMIN_PRIVATE_KEY"];
   const ethProvider = new ethers.providers.Web3Provider(window.ethereum);
   const signer = ethProvider.getSigner();
